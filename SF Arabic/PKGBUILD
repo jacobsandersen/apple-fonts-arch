@@ -1,0 +1,16 @@
+pkgname=apple-fonts-sf-arabic
+pkgver=1
+pkgrel=1
+arch=(any)
+
+source=(
+  'SF-Arabic.ttf'
+)
+
+sha256sums=(
+  '542aecfa6a05894b82ee4b8e0f095dd3133154e837778e457cca452c4a5a0eca'
+)
+
+package() {
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/ttf" "${srcdir}/SF-Arabic.ttf"
+}

@@ -1,0 +1,49 @@
+pkgname=apple-fonts-sf-mono
+pkgver=1
+pkgrel=1
+arch=(any)
+
+source=(
+  'SF-Mono-Bold.otf'
+  'SF-Mono-Regular.otf'
+  'SF-Mono-Heavy.otf'
+  'SF-Mono-Semibold.otf'
+  'SF-Mono-RegularItalic.otf'
+  'SF-Mono-MediumItalic.otf'
+  'SF-Mono-LightItalic.otf'
+  'SF-Mono-HeavyItalic.otf'
+  'SF-Mono-Light.otf'
+  'SF-Mono-SemiboldItalic.otf'
+  'SF-Mono-Medium.otf'
+  'SF-Mono-BoldItalic.otf'
+)
+
+sha256sums=(
+  'd4db7c2d2a9e21862d073b7992a3e4db240be4e03ef3cd02eb530ce7b95fb8c2'
+  '961161926f9082788b78b1b1b9f4e922b8aac2bd1e7d87792822d9b453937369'
+  '9bfe0a2d0f687d14f9e30a5dc4310195061f0e170de93b6b9aa4e4a973315e2d'
+  '84728eb68934976e36c2027445718c3c3260c5acc4d42c72f35cbb4c4acd5851'
+  '23465915a21d74206788136cdf9e0d670b5301640741592b04bee02fa8922d0b'
+  'e4c6bfaf8e3928645af85aeea138355f03e00c634477be0d8ba61ba2d78a2045'
+  'a31e910d2f7d4ee778684a8abb0df7c5810e43311ec1ec3fa52af9f647898b9a'
+  '8f27b0e80534aa7b6ceffb56f76c8ebd64974edfc5ed56e57d96f51b5a7a2804'
+  '2ce026a07e7e0e6ba6f816bd523d7bc5122665cc85969dad0a89fe472dab05d0'
+  '64ebfb243c6e980c46605c02904a687ed76c24a58f1948241342b59ce2ca12e5'
+  '617e4e30df71b85cfa6061a0da759106c89c4dc4712acaa8a68144875246b448'
+  '9e8903959eb4a1df426caed152278d3071aa4a7c59d08c2715f728ed789f9d1d'
+)
+
+package() {
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-Bold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-Regular.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-Heavy.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-Semibold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-RegularItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-MediumItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-LightItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-HeavyItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-Light.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-SemiboldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-Medium.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Mono-BoldItalic.otf"
+}

@@ -1,0 +1,127 @@
+pkgname=apple-fonts-sf-compact
+pkgver=1
+pkgrel=1
+arch=(any)
+
+source=(
+  'SF-Compact.ttf'
+  'SF-Compact-Italic.ttf'
+  'SF-Compact-Text-LightItalic.otf'
+  'SF-Compact-Display-Black.otf'
+  'SF-Compact-Rounded-Thin.otf'
+  'SF-Compact-Text-Regular.otf'
+  'SF-Compact-Display-Regular.otf'
+  'SF-Compact-Display-Thin.otf'
+  'SF-Compact-Text-UltralightItalic.otf'
+  'SF-Compact-Text-Black.otf'
+  'SF-Compact-Text-Bold.otf'
+  'SF-Compact-Rounded-Semibold.otf'
+  'SF-Compact-Display-Semibold.otf'
+  'SF-Compact-Text-ThinItalic.otf'
+  'SF-Compact-Rounded-Ultralight.otf'
+  'SF-Compact-Text-Heavy.otf'
+  'SF-Compact-Text-HeavyItalic.otf'
+  'SF-Compact-Display-Ultralight.otf'
+  'SF-Compact-Rounded-Medium.otf'
+  'SF-Compact-Text-MediumItalic.otf'
+  'SF-Compact-Text-RegularItalic.otf'
+  'SF-Compact-Rounded-Heavy.otf'
+  'SF-Compact-Text-BoldItalic.otf'
+  'SF-Compact-Text-Medium.otf'
+  'SF-Compact-Rounded-Black.otf'
+  'SF-Compact-Rounded-Bold.otf'
+  'SF-Compact-Display-Light.otf'
+  'SF-Compact-Text-Semibold.otf'
+  'SF-Compact-Rounded-Light.otf'
+  'SF-Compact-Display-Heavy.otf'
+  'SF-Compact-Text-Thin.otf'
+  'SF-Compact-Text-Light.otf'
+  'SF-Compact-Text-Ultralight.otf'
+  'SF-Compact-Rounded-Regular.otf'
+  'SF-Compact-Display-Bold.otf'
+  'SF-Compact-Text-SemiboldItalic.otf'
+  'SF-Compact-Display-Medium.otf'
+  'SF-Compact-Text-BlackItalic.otf'
+)
+
+sha256sums=(
+  'ea1817f8486a51399b1f9fa71cd2a42b244a51c9eecdd4eb1d4a198132fa33e1'
+  '9d7d51373370580876188e9867448632998c50649d4880d678efd607b36635de'
+  'da74d2bc1d18879e5725f35813a88dad237b708ea659cd06ab52e0cd10707d7e'
+  '73bf763c12240b683bff91e91bcf38f2ea7db13252db20c5127fc6f6e804bf63'
+  '2537329c716d4605f85852b8f85bac9b8b7132bfea81106ab7023a8c21397afb'
+  '9f0e3b0715d90dceb7d9d7071f467d2df2ef50aeb428613e24d86dc67030215d'
+  '8dc2cb36ccbb498ce289f27ddfc8ebb00ee19701798ade15402a9053ded6d628'
+  '1cfeaec003aa1300bc45a708dce2e29df9f98adcf5b7ddfe56ebd97f6e834a8e'
+  'b290d7cd2cea8fb3c60636ff4ee831b46e77648bbafcf0322f48eb21c898432e'
+  'a5a546abd1c5b8d01e4c2fcad75e9c38bcb0c892081f463f248601ce923887ae'
+  '3ae5e6aa31039c61b6a4b8f2f26183ac856100946b0fa74fc8f28d05495e2547'
+  '4924fc695c6321135fae6ed0ccc4db57edfd971adb1f9930af816bc43c4e084d'
+  '9c64d3697f09501c8e7f0b438ba0d6e80694339603fc311d73f8bbff2beb87bd'
+  'cc11260e779c9a0777bcd288b359c190841c4e0e353b0397571e36d64b5568ec'
+  '1b3fa6da99b3a482feb567118b869cfe1be02ae3f6fec453e111a87a7841390f'
+  'ccb322fa23a46b455299923a8109a2a8981ee8ebee8c141b862ad3885c2fa75d'
+  '156f00d7dbda722ba0d0b1c651079a67c130928456db93e71d0241f0fbfcd54f'
+  '5163ba7c7313ffce20cd83fb03c33b3f10dc919ec190a2f716a6a15f9aaa4b63'
+  'f2761d99f5839220fc878142efe8b3dc02fde76a63d1ef3298a4a0a9d24e12fd'
+  'b72f70d4db6ccae9ed5adde4a170cb9815fba287d1d53466331a86002b32352d'
+  '6bc5277c745487fc1aa512d5771fbf198eddd672ab5b3bbf63a5874e5a28c23c'
+  '52eab50b3a67f4c53ea1bce2c3001b7d9c6a35eb9f5ea0a2ad6b1f5fc294d86e'
+  'e6d224bfd9d8b56234f2dcf9d8b6fc062d52463b44a380a4847c00ceb610eb44'
+  '28f116cd27e7ca347fd627f7817b258e9a99ea4f4591cfcb1eacf0873b1cd209'
+  'a16e81298943363a03cbd3ba4b145b0782f32634e34228352d45cd6aa007b002'
+  'fc575f419bd708b2fa528ccd3f73f1a6ac1d83009f1b94eca5096dbdc55fe392'
+  '832b15fa378b923feb61ecea85faa507cb8e1daeee405872137fdaccb4fd363c'
+  'e5f3c0f65f355df7f3b6c04d51b1c806a17ec58ab238917c74ae20e685266fcb'
+  '4a452f240030d44d05cd456d9d1281b3358a0e45bc87c79171f3b7d516061597'
+  '8f62a753d52bf494dba4c6b41131225906eb80f6391d146525cd8a84575452af'
+  'db2436fee86c208c74b1aba39c12da6f3925ca0f0be49672c980be236baf0809'
+  'f586c94aaa2a2c6648572353766a45dd5d6b5e81069cf0bd191ce6436d2757e1'
+  '21589f7d8099de8b2c94b6d05e49684e1861d3bd253e630c508e74d59ffee0db'
+  'd91e02f4b1ba8bc8502f7ba8d59e54e27b94f3280048b5e756d862c60a07230a'
+  'd2046566d88b5b1e5ae687bf37e38791b63f83c03a758b3c7915213288f9ca1c'
+  'f648f74344b30223a1881a00e2539f7a0a8bb5487ce3d49b1955060dc1b9293c'
+  'c093779efb81861b8db88f878041f04794ea5b4447623728300aec50f072e3e9'
+  '55c5eccc4de134a116e595dc7666c49b6f7348d757dbb4480018ed5e276bae00'
+)
+
+package() {
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/ttf" "${srcdir}/SF-Compact.ttf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/ttf" "${srcdir}/SF-Compact-Italic.ttf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-LightItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Display-Black.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Rounded-Thin.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-Regular.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Display-Regular.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Display-Thin.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-UltralightItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-Black.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-Bold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Rounded-Semibold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Display-Semibold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-ThinItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Rounded-Ultralight.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-Heavy.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-HeavyItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Display-Ultralight.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Rounded-Medium.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-MediumItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-RegularItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Rounded-Heavy.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-BoldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-Medium.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Rounded-Black.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Rounded-Bold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Display-Light.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-Semibold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Rounded-Light.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Display-Heavy.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-Thin.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-Light.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-Ultralight.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Rounded-Regular.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Display-Bold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-SemiboldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Display-Medium.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/SF-Compact-Text-BlackItalic.otf"
+}

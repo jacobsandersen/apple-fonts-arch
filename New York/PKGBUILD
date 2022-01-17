@@ -1,0 +1,163 @@
+pkgname=apple-fonts-new-york
+pkgver=1
+pkgrel=1
+arch=(any)
+
+source=(
+  'NewYorkItalic.ttf'
+  'NewYork.ttf'
+  'NewYorkMedium-Medium.otf'
+  'NewYorkSmall-RegularItalic.otf'
+  'NewYorkSmall-Bold.otf'
+  'NewYorkExtraLarge-BlackItalic.otf'
+  'NewYorkExtraLarge-RegularItalic.otf'
+  'NewYorkSmall-Semibold.otf'
+  'NewYorkExtraLarge-HeavyItalic.otf'
+  'NewYorkLarge-HeavyItalic.otf'
+  'NewYorkExtraLarge-Medium.otf'
+  'NewYorkExtraLarge-BoldItalic.otf'
+  'NewYorkExtraLarge-Bold.otf'
+  'NewYorkMedium-BoldItalic.otf'
+  'NewYorkSmall-MediumItalic.otf'
+  'NewYorkSmall-BlackItalic.otf'
+  'NewYorkSmall-HeavyItalic.otf'
+  'NewYorkLarge-Bold.otf'
+  'NewYorkMedium-MediumItalic.otf'
+  'NewYorkExtraLarge-Black.otf'
+  'NewYorkSmall-Regular.otf'
+  'NewYorkMedium-Heavy.otf'
+  'NewYorkMedium-RegularItalic.otf'
+  'NewYorkLarge-Black.otf'
+  'NewYorkLarge-BlackItalic.otf'
+  'NewYorkMedium-Semibold.otf'
+  'NewYorkMedium-BlackItalic.otf'
+  'NewYorkSmall-BoldItalic.otf'
+  'NewYorkSmall-SemiboldItalic.otf'
+  'NewYorkMedium-Regular.otf'
+  'NewYorkLarge-Regular.otf'
+  'NewYorkLarge-BoldItalic.otf'
+  'NewYorkMedium-HeavyItalic.otf'
+  'NewYorkLarge-SemiboldItalic.otf'
+  'NewYorkSmall-Medium.otf'
+  'NewYorkSmall-Black.otf'
+  'NewYorkLarge-Semibold.otf'
+  'NewYorkMedium-SemiboldItalic.otf'
+  'NewYorkMedium-Bold.otf'
+  'NewYorkExtraLarge-SemiboldItalic.otf'
+  'NewYorkLarge-Heavy.otf'
+  'NewYorkExtraLarge-Regular.otf'
+  'NewYorkLarge-Medium.otf'
+  'NewYorkLarge-MediumItalic.otf'
+  'NewYorkLarge-RegularItalic.otf'
+  'NewYorkExtraLarge-Semibold.otf'
+  'NewYorkSmall-Heavy.otf'
+  'NewYorkExtraLarge-Heavy.otf'
+  'NewYorkExtraLarge-MediumItalic.otf'
+  'NewYorkMedium-Black.otf'
+)
+
+sha256sums=(
+  'b9c1d56142eef16c4f139ba8bf687a52e13f7422a26552f359c04a634bdc3b5d'
+  '728ccf7d481c2ee13d7abf60f5c85bccd0bf090013a263f09e8ab8488895fb75'
+  '910bf8ad2ae1c09feb5ca3bf6e64d2dc4f734bf82531c9a4ec721b766afab3fb'
+  '85f18484f20c9e2ef634c7feeed8a69e98fe94de420b677e128b3dd34307f64e'
+  'a83e35201a5a2c3ff3c87186a7f9c5491b31ec15f555544501adddb20b37bf3e'
+  'eec44be7309bb2d861d3578a1d3565c3da0b3b6fa453051d59f9f28c95dd6d09'
+  '469d4f6c3e1b5775e4f69d0e3b6c997aaf3e275f68d9a4e16222f6b2d83c8476'
+  'a17bb83c73ce19a9c91ce1c970f83ed8557b338a53ea1d28c9661aa501402307'
+  '289745ebece13ad25a1ffcfbd1396b22affbdec3ea02adb33157d2fd4e97339c'
+  'ba163ac2d541134a4e5c2358a632cf9596bc9043d6a90accd52bf3c9220fa589'
+  '7b562cf248f70ca57d9f216ad6860bc6beb25fde15683f450d37bec88987e95a'
+  'ec68358f39c0fd5f7cdd6523125db2c08edf8aedf71b153cbc6f531632e3ab41'
+  'b4b2690134921473ffc05088cbb335b1754be73f02b057a9ad590693a9cd39b5'
+  '6e277e796792b70a124dc069a986a8f8d2785b2a3cc135d745cca9f8503b7c69'
+  'c9f82c9a9406dc8ca9b93b03ea228e90766e7537bc636f82b4f43b4dd9f07dc8'
+  '490db6cc6ad49d3f4db21e2d92d9cafe69e32ef0fc518a84674b09133bbda2aa'
+  '066510a0608842e44f6611da3e4218ae2528c2a3417cec74f66d91cf6d4b1c43'
+  'f0fff118a732ebda60f789954430eb90078571252a63a55d372b0816f8fcca8e'
+  'b98ab0295a159cae4318297943f596dd3eb6817d866f2e2faa2dd6a0cb2f3717'
+  '7afe4558bf5b3b519109f0dedaeb7e428493742c3d870adbf47fe65687cc20b7'
+  'bd951524412eafb4d3d391c52d7420bdc038008b71d848bc59ebe8ce7f508a05'
+  'd03c14d40556258732edaa1b20affc0543bf1a5cac1b609c7614e8537bb7d55d'
+  '875d831ae796111e7786a9053ec28c7b7a97eef7e9e358f6199da4d54eb0f100'
+  '1e18f31b2704cd21e8de4186eb422067e7b3c58fadba32c14acf9a4a91ab4e94'
+  '055c8af78e0764c923ad98208d0939809eb435f73c2d174001677c3a841ada9e'
+  'a766fff793b7a5eb01d40e0d4449c114a3d94e50730819129ec720f793786fbe'
+  '5acc7d629ff35009630212e5772896b17bfbab658529ed5ac565f6f5f6898823'
+  '4cbedc951f72b030009082cc07d941c021ab21fcaa9b1a1e035db96c958bdeda'
+  '1083e1933fe97a83cb01a68aba70e1db6e115e7977a68ec3b3de9f9d19d99f33'
+  '1b9f75bc7e7cba8a8e73a4c64934536deed3fb0d8cf1d494c02b39852f03243c'
+  '65115aa353782a49b0f05e25b1fd5e2110c80c8742356e1f78bc5fcf9ddcbbca'
+  '2aadeb0a222a7bd4c84caf825314570946d09071e54c6c27181742ec948a3b52'
+  '2fa08528ba32424f3a605f98214b0a1172be7276e09af0019cbfdeed1abf6020'
+  'c2ec96e414d7aa559c08641cdc6cf768243b499dd90a218dc331fd122a00a3c8'
+  '44c4370e1f193dca0eaaa007daa5c59b28e1eaa28698ba8649d8b8594ce97e4b'
+  '314bf414774cc59c1c28e51c81029698e69ef0a5bf66ae1ce3cf089f0b86e035'
+  '896cdfb3883f1e074d486dc5f0609724924960c48bb4ed66be757aa2692e9dc0'
+  'eb53d3dc1684c695c98d910724cf5da2ed6c9f01ef3c98dc052be80ba3d7e710'
+  '6927848a88e7a73319385a648def226e5d9ae9967b0da27ee4b83b9c300c227f'
+  'b41bfc5fe3a3865aaa51dd1d9f4f983708826534760dd51c8971d59a2313dfc0'
+  '7ec8f5660d3612b2b194518c353d318aeea65ba3cca80f87a31d24025b136d93'
+  '726791dd69f778a27e082e2b029e1eb5758a1320f5a641dfe018590c3816b997'
+  '0032e281c921d8290bff327747d0646feccd2f2e3ec9358a14c19db4dd431e3c'
+  '6b45beef5c6fcb0afe42dcdd6a3bc7c306e879632c130aba845deab2dc7cf5fd'
+  '0bb0ac859896e4affac56f481e3f5ef434daff732f804467188a57c59248c17f'
+  '1da61fb9187a81152705c2a390110caecde8e9bb7f9a303d4db9b405868cea06'
+  '24d1855e44704f7ea76c1f3d9dc0af03a2c8eda15a1c7880ce7000e279fd69b8'
+  'c0100b08028b1aca5379414e7645963286b78b111a60698475999756f023f837'
+  '886f29cd801e8396213ca5f35638784e3c2e271095b896e5926349bda086357f'
+  '4835a607c9b7a3f81378848cbb7ddf87ed8af82badca3724405e626f2357c018'
+)
+
+package() {
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/ttf" "${srcdir}/NewYorkItalic.ttf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/ttf" "${srcdir}/NewYork.ttf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-Medium.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-RegularItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-Bold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-BlackItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-RegularItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-Semibold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-HeavyItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-HeavyItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-Medium.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-BoldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-Bold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-BoldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-MediumItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-BlackItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-HeavyItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-Bold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-MediumItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-Black.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-Regular.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-Heavy.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-RegularItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-Black.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-BlackItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-Semibold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-BlackItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-BoldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-SemiboldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-Regular.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-Regular.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-BoldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-HeavyItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-SemiboldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-Medium.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-Black.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-Semibold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-SemiboldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-Bold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-SemiboldItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-Heavy.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-Regular.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-Medium.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-MediumItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkLarge-RegularItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-Semibold.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkSmall-Heavy.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-Heavy.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkExtraLarge-MediumItalic.otf"
+  install -Dm644 -t "${pkgdir}/usr/share/fonts/${pkgname}/otf" "${srcdir}/NewYorkMedium-Black.otf"
+}
